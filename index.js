@@ -19,7 +19,7 @@ function nowServing(line)
   }
 
 }
-function currentLine(line)
+function currentLine(katzDeli)
 {
   var i = 0;
   var line =[];
