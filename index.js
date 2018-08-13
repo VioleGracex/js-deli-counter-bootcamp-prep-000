@@ -21,10 +21,11 @@ function nowServing(line)
 }
 function currentLine(line)
 {
-  var i =0;
+  var i = 0;
+  var line =[];
   while(i<line.length)
   {
-    line.push(` `+[i+1]+`. `  + line[i]);
+    line.push(` `+[i+1]+`. `  + katzDeli[i]);
     i++;
   }
   if(line.length===0)
