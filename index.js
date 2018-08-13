@@ -19,7 +19,7 @@ function nowServing(line)
   }
 
 }
-function currentLine(line)
+/*function currentLine(line)
 {
   var i =0;
   while(i<line.length)
@@ -36,4 +36,4 @@ function currentLine(line)
 
       return "The line is currently:"+line;
   }
-}
+}*/
