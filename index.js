@@ -22,17 +22,18 @@ function nowServing(line)
 function currentLine(line)
 {
   var i =0;
+  while(i<line.length)
+  {
+    line.push(` `+[i+1]+`. `  + line[i]);
+    i++;
+  }
   if(line.length===0)
   {
     return "The line is currently empty." ;
   }
   else
   {
-    while(i<line.length)
-    {
-      line.push(` `+[i+1]+`. `  + line[i]);
-      i++;
-    }
+    
       return "The line is currently:"+line;
   }
 }
