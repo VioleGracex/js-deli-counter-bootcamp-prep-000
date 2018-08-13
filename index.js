@@ -19,9 +19,9 @@ function nowServing(line)
   }
 
 }
-function currentLine(katzDeli) {
+function currentLine(line) {
    let i = 0;
-   while (i < katzDeli.length) {
+   while (i < line.length) {
      line.push(` `+[i+1]+`. `  + katzDeli[i])
      i++;
    }
