@@ -19,18 +19,7 @@ function nowServing(line)
   }
 
 }
-function currentLine(line) {
-   let i = 0;
-   while (i < line.length) {
-     line.push(` `+[i+1]+`. `  + line[i])
-     i++;
-   }
-   if (line.length === 0) {
-     return "The line is currently empty.";
-   } else
-   return(`The line is currently:` + line);
- }
-/*function currentLine(line)
+function currentLine(line)
 {
   var i =0;
   while(i<line.length)
@@ -47,4 +36,4 @@ function currentLine(line) {
 
       return "The line is currently:"+line;
   }
-}*/
+}
